@@ -23,20 +23,6 @@ public class Word {
 		}
 		return input;
 	}
-	/*static boolean isLettersOnly(String toBeChecked){
-		String alphabet = "abcdefghijklmnopqrstuvwzyz";
-		boolean isLetters = false;
-		for(int i = 0; i < toBeChecked.length()-1; i++){
-			char letter = toBeChecked.charAt(i);
-			if (alphabet.contains(letter)) {
-				isLetters = true;
-			} else {
-					isLetters = false;
-				   }
-			}
-		if(isLetters) //if there's only letters
-		return true;
-	 }*/
 	
 	public static boolean isLettersOnly(String input) {
 	    return input.matches("[a-zA-Z]+");
