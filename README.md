@@ -1,2 +1,2 @@
 # CoRE-project
-My CoRE project. Staring with a Scrabble calculator, and maybe adding some other stuff too.
+My CoRE project. A simple brickbreaker game
